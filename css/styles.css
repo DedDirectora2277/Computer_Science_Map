@@ -170,7 +170,6 @@ main .welcome h1 {
     font-size: 16px;
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
-    margin-top: 15px;
 }
 
 
@@ -233,7 +232,6 @@ footer p {
     background-image: url(../images/old.jpg);
 }
 
-
 .image_background {
     width: 100%;
     background-size: cover;
@@ -274,6 +272,11 @@ footer p {
 
 .welcome h1{
     animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.welcome p{
+    animation-duration: 2.5s;
     animation-name: slidein;
 }
 
@@ -324,6 +327,27 @@ to {
     padding-top: 1rem;
 }
 
+.carousel-inner{
+    min-height: 520px;
+}
+
+.resources{
+    font-size: 30px;
+    text-align: right;
+}
+
+.res_link{
+    border-radius: 10%;
+    transition: all 0.5s ease;
+}
+
+.res_link:hover{
+    border-radius: 100%;
+}
+
+.res{
+    justify-content: center;
+}
 
 @media screen and (max-width: 1100px) {
     .topnav a {
