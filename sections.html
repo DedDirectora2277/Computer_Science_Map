@@ -20,6 +20,8 @@
 
   </head>
   <body>
+
+    <!-- Шапка -->
     <header class="headerMain">
     <div class="head_container">
       <div class="header_logo"><a href="index.html" class="mainLink">Computer Science</a></div>
@@ -34,13 +36,19 @@
       </nav>
     </div>
   </header>
+  
+  <!-- Тело -->
   <main>
+
+    <!-- Вступительный блок -->
     <section class="welcome">
       <div class="container">
         <h1>Разделы <span class="mysite">Computer Science</span></h1>
         <p class="black_background_text">В этом разделе вы найдёте ссылки Краткую информацию по каждому разделу</p>
       </div>
     </section>
+
+    <!-- Карточки -->
     <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-xs-12 col-md-6 col-xl-4 myColumn">
@@ -53,7 +61,7 @@
                     которую может выполнить компьютер. В настоящее время существует большое количество 
                     различных языков программирования, которые дают возможность разными способами записать 
                     данные и создать определенные процессы. 
-                </p>
+                  </p>
                 <a href="#programing" class="btn btn-success">Подробнее</a>
                 </div>
               </div>
@@ -135,11 +143,15 @@
               </div>
           </div>
         </div>
+
+        <!-- Блок программирования -->
     <div class="black_background" id="programing">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <h1 class="defaultTitle">Программирование</h1>
+          </div>
+          <div class="col-12 myColumn">
             <p class="black_background_text">
               Программирование — это процесс создания программ (программного обеспечения). 
               Для этого программисты пишут исходный код на одном из языков программирования. 
@@ -147,6 +159,8 @@
               из десяти самых популярных. Еще правильнее будет сначала определиться с областью, в 
               которой вы собираетесь работать, и только потом приступать к выбору языка.
             </p>
+          </div>
+          <div class="col-xs-12 col-md-6 myColumn">
             <p class="black_background_text">
               Существует множество парадигм программирования. Ниже приведены самые используемые из них.
             </p>
@@ -163,9 +177,14 @@
               которая применяется для написания компьютерных, мобильных, серверных приложений.</p>
             </p>
           </div>
+          <div class="col-xs-12 col-md-6 myColumn">
+            <img src="images/paradigma.svg" alt="paradigms" class="img">
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Блок Машинного обучения -->
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -182,6 +201,8 @@
             сложные точки данных могут быть математически связаны компьютерными системами, если у 
             них достаточно данных и вычислительной мощности для обработки этих данных.
           </p>
+        </div>
+        <div class="col-xs-12 col-md-6 myColumn">
           <p class="white_background_text">
             Существует несколько типов машинного обучения:
           </p>
@@ -224,8 +245,13 @@
             работе с данными разрабатывает награды, они могут влиять на результаты.
           </p>
         </div>
+        <div class="col-xs-12 col-md-6 myColumn">
+          <img src="images/machine_learning.svg" alt="machine_learning" class="img">
+        </div>
       </div>
     </div>
+
+    <!-- Блок компьютерных сетей и безопасности -->
     <div class="black_background" id="security">
       <div class="container">
         <div class="row">
@@ -258,6 +284,8 @@
               целостности и доступности данных, с учётом целесообразности применения и без какого-либо
               ущерба производительности организации.
             </p>
+          </div>
+          <div class="col-xs-12 col-md-6 myColumn">
             <p class="black_background_text">
               Ниже представленны основные способы защиты информации.
             </p>
@@ -284,6 +312,11 @@
               <strong>Криптографические</strong>. Маскируют, шифруют ценные 
               сведения для хранения и передачи по открытым каналам. 
             </p>
+          </div>
+          <div class="col-xs-12 col-md-6 myColumn">
+            <img src="images/security.svg" alt="Protection methods" class="img">
+          </div>
+          <div class="col-12">
             <p class="black_background_text">
               Компьютерные сети тесно связаны с информационной безопаснотью (с компьютерной в частности), т.к. 
               именно они зачастую становятся объектом информационной защиты.
@@ -292,6 +325,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Блок БД -->
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -303,6 +338,8 @@
             описание. Это различие влияет на то, какая именно БД используется в разработке 
             конкретного продукта или технологии. 
           </p>
+        </div>
+        <div class="col-xs-12 col-md-6 myColumn">
           <p class="white_background_text">
             Есть множество типов организации данных в базах данных. Ниже приведены самые 
             известные на данный момент.
@@ -338,7 +375,7 @@
             (SQL - <i>Structured Query Language</i>)
           </p>
           <p class="white_background_text">
-            <strong>NoSQL и Неряляционные базы данных</strong>. Все преимущества и недостатки 
+            <strong>NoSQL и Нереляционные базы данных</strong>. Все преимущества и недостатки 
             реляционных БД основаны на жесткой структуризации и типизации сведений об объектах. 
             С одной стороны, можно оптимизировать хранение и индексирование данных за счет 
             нормализации или же денормализации. С другой — сложно организовать хранение и 
@@ -349,8 +386,13 @@
             колоночные БД и т.д.
           </p>
         </div>
+        <div class="col-xs-12 col-md-6 myColumn">
+          <img src="images/data_bases.svg" alt="data_bases" class="img">
+        </div>
       </div>
     </div>
+
+    <!-- Блок Архитектуры -->
     <div class="black_background" id="arcitecture">
       <div class="container">
         <div class="row">
@@ -376,7 +418,7 @@
             </p>
           </div>
           <div class="col-xs-12 col-md-6 myColumn">
-            <img src="images/Neiman.png">
+            <img src="images/Neiman.svg" alt="Neimans Computer" class="img">
           </div>
           <div class="col-12 myColumn">
             <p class="black_background_text">
@@ -390,6 +432,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Блок графики -->
     <div class="container" id="visual">
       <div class="row">
         <div class="col-12">
@@ -404,6 +448,8 @@
           для создания и редактирования изображений, так и для оцифровки визуальной информации, 
           полученной из реального мира, с целью дальнейшей её обработки и хранения.
           </p>
+        </div>
+        <div class="col-xs-12 col-md-6 myColumn">
           <p class="white_background_text">
             Компьютерную графику по способам создания изображений разделяют на 2 основные 
             разновидности: двухмерную (2D) и трехмерную (3D). В двухмерной графике изображения 
@@ -415,14 +461,17 @@
             параметрами (цветом и толщиной линий). В растровой графике образ состоит из мельчайших 
             точек — пикселей с заданными показателями цвета, прозрачности и яркости.
           </p>
-        </div>
-        <div class="col-12">
           <p class="white_background_text">
             Принцип работы с трехмерной графикой кардинально отличается от предыдущего. 
             Здесь действия художника очень схожи с творчеством скульптора. Каждый объект сначала 
             моделируется в специальном трехмерном редакторе, а готовое изображение представляет 
             собой плоскую проекцию совокупности всех исходных объектов.
           </p>
+        </div>
+        <div class="col-xs-12 col-md-6 myColumn">
+          <img src="images/graphic.svg" alt="graphic" class="img">
+        </div>
+        <div class="col-12">
           <p class="white_background_text">
             Визуализация данных — это представление данных в виде, который обеспечивает 
             наиболее эффективную работу человека по их изучению. Визуализация данных находит 
@@ -433,6 +482,8 @@
       </div>
     </div>
   </main>
+
+  <!-- Подвал -->
   <footer>
     <div class="footer_container">
       <div class="container">
@@ -448,6 +499,7 @@
       </div>
     </div>
   </footer>
+  
   <!-- Scripts -->
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
